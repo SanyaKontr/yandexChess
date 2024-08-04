@@ -1,0 +1,430 @@
+@media (max-width: 767px){
+    .header{
+        width: 375px;
+        height: 773px;
+        background-image: url(img/backgroundmobile.png);
+    }
+    .headerTitle{
+        width: 335px;
+        height: 160px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 41px;
+        }
+ .logo{
+    padding-top: 18px;
+  padding-left: 20px;
+  .logoSvg{
+    height: 31px;
+  width: 208px;
+  }
+        }
+  .header__text_one {
+     color: rgb(49, 49, 49);
+            font-family: Merriweather;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 110%;
+            letter-spacing: 0px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        .header__text_two{
+            color: rgb(49, 49, 49);
+            font-family: Merriweather;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 110%;
+            letter-spacing: 0px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .header__text_three{
+            color: rgb(49, 49, 49);
+        font-family: Merriweather;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: 0px;
+        text-align: right;
+        text-transform: uppercase;
+        }
+        
+        .header__text_four{
+            color: rgb(49, 49, 49);
+        font-family: Golos Text;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 24px;
+        }
+
+ .buttons {
+    padding-top: 32px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+        }
+        .buttonSupport {
+            width: 335px;
+            height: 53px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+            border-radius: 66px;
+            white-space: nowrap;
+            background: rgb(31, 31, 31);
+            color: rgb(255, 255, 255);
+            font-family: Golos Text;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 130%;
+            letter-spacing: 0px;
+            text-align: center;
+            border: none;
+        }
+        .buttonSupport br{
+            display: none;
+        }
+        .buttonMore:hover {
+            background-color: #FFFFFF;
+            color: rgb(31, 31, 31);
+            border: none;
+        }
+
+        .buttonSupport:hover {
+            background: rgb(31, 31, 31);
+            color: rgb(255, 255, 255);
+            border: none;
+        }
+        .buttonMore {
+            width: 335px;
+            height: 53px;
+            border: none;
+            opacity: 90%;
+            background-color: #FFFFFF;
+            color: rgb(31, 31, 31);
+            font-family: Golos Text;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 130%;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+        .buttonMore br{
+            display: none;
+        }
+
+        .textTitle {
+           display: none;
+        }
+        .bodyTitle {
+            display: flex;
+            padding-left: 20px;
+            padding-top: 48px;
+            flex-direction: column;
+            padding-right: 20px;
+            gap: 24px;
+        }
+        .textTitleMobile{
+            display: block;
+            color: rgb(49, 49, 49);
+            font-family: Merriweather;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 135%;
+            letter-spacing: 0px;
+            text-align: left;
+            text-transform: uppercase;
+         }
+         .imgTitle {
+            width: 335px;
+            height: 212px;
+        }
+        .chessBody {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 34px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .img2 {
+            width: 375px;
+        }
+        .chess {
+          height: 443px;
+        }
+        .chess_session {
+           display: none;
+        }
+        .chess_session_mobile{
+            display: flex;
+            padding-bottom: 45px;
+            line-height: 135%;
+         }
+         .tableStyle{
+            display: none;
+         }
+         .tableMobile{
+            display: inline;
+
+         }
+         .tableText1{
+            font-family: Golos Text;
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(49, 49, 49);
+            line-height: 120%;
+            opacity: 50%;
+
+         }
+         .tableText2{
+            font-family: Golos Text;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 120%;
+            color: rgb(49, 49, 49);
+            padding-top: 12px;
+            padding-bottom: 16px;
+         }
+         .href {
+            text-decoration: none;
+            font-family: Golos Text;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 120%;
+            color: rgb(48, 87, 162);
+            padding-top: 20px;
+            padding-left: 0px;
+            text-align: left;
+        }
+        .stages {
+            padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        }
+        .buttonPlayers{
+            font-family: Golos Text;
+            font-weight: 500;
+            font-size: 16px;
+        padding-bottom: 12x;
+            width: 114px;
+            height: 40px;
+            padding: 12px;
+            background: none;
+            color: rgb(48, 87, 162);
+            border-radius: 62px;
+            border-color: rgb(48, 87, 162);
+            &:hover{
+                background: none;
+            color: rgb(48, 87, 162);
+            border-radius: 62px;
+            border-color: rgb(48, 87, 162);
+            }
+          }
+        .stages h1 {
+            font-size: 36px;
+            line-height: 110%;
+            font-weight: 400;
+            color: #313131;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        .stages p {
+            font-family: Golos Text;
+            font-size: 20px;
+            line-height: 120%;
+            color: #3057A2;
+            padding-top: 12px;
+           position: relative; 
+            font-weight: 400;
+            padding-left: 0px;
+        }
+    .textTitlePC{
+        display: none;
+    }
+
+    .textTitleMobile{
+         font-family: Golos Text;
+            font-size: 18px;
+            line-height: 120%;
+   text-align: left;
+    }
+    .plane {
+        display: none;
+        position: absolute;
+        width: 335px;
+        height: 182px;
+        left: 20px;
+        top: 2804px;
+    }
+    .container{
+        display: none;
+    }
+    .scrollHidden{
+        display: none;
+    }
+    .scrollMobile{
+        display: flex;
+overflow-x: scroll;
+overflow: hidden;
+        }
+        
+        .scrollMobile .galleryPlayers{
+width: 100%;
+        display: flex;
+        grid-template-columns: auto auto auto;
+       // grid-gap: 131px;
+        flex: none;
+       
+        }
+
+        
+        .scrollMobile .galleryPlayers img{
+        
+         overflow: hidden;
+          }
+          .scroll::-webkit-scrollbar{
+            display: none;
+          }
+        
+          .controls #rightBtn, .controls #leftBtn{
+            cursor: pointer;
+          } 
+        
+        .scrollImg{
+    
+          width: 375px;
+        display: flex;
+        justify-content: center;
+
+        }
+        
+        .scrollHiddenMobile{
+          width: 335px;
+          overflow: hidden;
+        }
+
+        .playerInfo {
+            padding-top: 200px;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 20px;
+        }
+        .player_text {
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 110%;
+            color: rgb(49, 49, 49);
+            padding-bottom:40px;
+            padding-left: 20px;
+        }
+        .scrollHiddenMobile{
+            display: inline; 
+          }
+          .controlMobile{
+            display: inline;
+          }
+          .control{
+            display: none;
+          }
+
+          .infoPlayer {
+            font-family: Golos Text;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 120%;
+            text-align: center;
+        }
+    .runningLine{
+        display: none;
+    }
+    .runningLineMobile{
+        display: inline;
+    }
+    .marquee {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+        height: 38px;
+        background-color: rgb(245, 73, 50);
+        display: flex;
+        align-items: center;
+    }
+
+    .footer {
+        height: 150px;
+        background-color: #E9DED4;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        opacity: 70%;
+    }
+
+
+    .scrollMobileOne{
+        display: flex;
+overflow-x: scroll;
+overflow: hidden;
+        }
+        
+        .scrollMobileOne .galleryPlayers{
+width: 100%;
+        display: flex;
+        grid-template-columns: auto auto auto;
+       // grid-gap: 131px;
+        flex: none;
+       
+        }
+        
+        
+        .scrollMobileOne .galleryPlayers img{
+        
+         overflow: hidden;
+          }
+          .controlMobileOne{
+            display: inline;
+          }
+   .scrollText{
+    position: absolute;
+    font-family: Golos Text;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    opacity: 70%;
+    display: none;
+   }
+   
+   .cardContainer{
+    width: 335px;
+    height: 300px;
+   }
+
+
+   .cardContainerText{
+    padding-top: 62px;
+    padding-left: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+   }
+
+   .cardContainerDesc{
+    font-family: Golos Text;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    opacity: 80%;
+   }
+        }
